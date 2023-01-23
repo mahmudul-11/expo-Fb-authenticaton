@@ -2,6 +2,16 @@
   "expo": {
     "name": "testingApp2",
     "slug": "testingApp2",
+    "plugins": [
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "859556455098734",
+          "clientToken": "18f0fdf62e76b24ec248c8f41e016d7a",
+          "displayName": "exo_testing"
+        }
+      ]
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +34,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mahmudul.testingApp2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dceaebfd-fdef-4b9e-b2b3-5c6e97413a28"
+      }
     }
   }
 }
